@@ -1,1 +1,52 @@
+Project Name: Python To-Do List
+
+Overview
+A simple command-line To-Do List application built with Python. 
+The app allows users to manage daily tasks by adding, deleting, and marking them as complete. 
+Tasks are saved locally in a JSON file to maintain persistence across sessions.
+
+Features
+
+1. Add new tasks with custom titles
+2. Delete tasks by number
+3. Mark tasks as complete
+4. View all tasks with a clear visual status indicator (✅ for completed, ❌ for pending)
+5. Persistent storage in `tasks.json`
+6. Cross-platform support (Windows, Linux, macOS)
+7. Lightweight and fast, runs entirely in the terminal
+
+Tech Stack
+
+1. Python 3
+2. JSON for local task storage
+3. OS and platform modules for cross-platform screen clearing
+
+Setup Requirements
+
+1. Ensure Python 3 is installed on your system
+2. No additional Python packages are required, all dependencies are standard libraries
+3. Clone the repository and run: python3 todo.py
+
+
+Usage
+
+1. Run the program and follow the menu prompts
+2. Add tasks using option 1
+3. Delete tasks using option 2
+4. Mark tasks as complete using option 3
+5. View all tasks using option 4
+6. Quit the program using option 5
+
+Purpose
+This project was created to practice Python programming, JSON data management, and command-line interfaces. 
+It is a lightweight tool for managing daily tasks efficiently.
+
+Future Improvements
+
+1. Add due dates and reminders for tasks
+2. Implement categories or tags for tasks
+3. Add search and filtering options
+4. Create a GUI version using Tkinter or CustomTkinter
+5. Allow exporting tasks to text or CSV files
+
 
