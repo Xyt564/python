@@ -10,9 +10,9 @@ Tkinter-based GUI for a clean, intuitive interface
 Powered by pytubefix for reliable video downloading
 
 Tech Stack:
-Python 3 - linux = sudo apt install python3
-Tkinter → GUI framework - linux = sudo apt install python3-tk
-pytubefix → For YouTube video downloading - linux = pip install pytubefix
+Python 3  
+Tkinter 
+pytubefix 
 
 Purpose: This app was built as a learning project to practice:
 
@@ -33,5 +33,6 @@ The required packages are stored in `requirements.txt`. Run:
 
 pip install -r requirements.txt
 
+For Tkinter (Linux systems), install with:
 
-
+sudo apt install python3-tk
