@@ -1,1 +1,59 @@
+Project Name: UFW Real-Time Log Monitor
+
+Overview
+A desktop application that monitors UFW (Uncomplicated Firewall) logs in real-time on Linux systems. 
+This tool parses log entries, classifies IP addresses, and displays incoming and outgoing traffic in a color-coded GUI. 
+It provides an intuitive interface to track firewall activity without using the terminal.
+
+Features
+
+1. Real-time monitoring of UFW log entries
+2. Color-coded log lines: red for blocked traffic, green for allowed traffic
+3. Classifies IP addresses (Private, Public, Loopback, Multicast, Reserved, Link-local)
+4. Displays timestamps, source, and destination IP addresses
+5. Scrollable textbox with live updates
+6. Dark-themed modern GUI using CustomTkinter
+7. Handles large logs efficiently using threading
+
+Tech Stack
+
+1. Python 3
+2. CustomTkinter and Tkinter for GUI
+3. `subprocess` for following log files
+4. `re` for regex parsing of log entries
+5. `ipaddress` for IP classification
+6. `datetime` for timestamp formatting
+7. Threading for non-blocking real-time updates
+
+Setup Requirements
+
+1. Install required Python packages from `requirements.txt`: run pip install -r requirements.txt
+
+
+2. On Linux, ensure Tkinter is installed: run sudo apt install python3-tk
+
+
+3. Requires sudo permissions to read `/var/log/ufw.log`. Run the app with: python ufwlog2.py then wirte ur sudo pass in terminal
+
+
+Usage
+
+1. Launch the application: run sudo python ufwlog2.py
+
+
+2. The GUI will display new UFW log entries as they happen
+3. Blocked entries appear in red, allowed entries appear in green
+4. Source and destination IP addresses are classified for easier interpretation
+
+Purpose
+This project was built to practice Python GUI development, real-time log processing, regex parsing, and threading. 
+It provides a user-friendly way to monitor firewall activity and analyze network traffic visually.
+
+Future Improvements
+
+1. Filter logs by action (ALLOW/BLOCK) or IP type
+2. Add search functionality for specific IPs or timestamps
+3. Include export to CSV or JSON for further analysis
+4. Enable notifications for suspicious activity
+5. Improve performance for very large log files
 
