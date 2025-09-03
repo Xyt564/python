@@ -33,7 +33,6 @@ Setup Requirements
 
 1. Install required packages from `requirements.txt`: run pip install -r requirements.txt
 
-
 2. On Linux systems, make sure Tkinter is installed: run sudo apt install python3-tk
 
 3. Recommended: run on a system with at least 4GB RAM (higher RAM will improve performance).
@@ -43,7 +42,8 @@ Usage
 1. Run the script: run python chatbot_app.py
 
 2. Type your message in the input box and press **Enter** or click **Send**. (very bugged app does work but often rambles due to the limitations)
-3. Use **Clear Chat**, **Save Chat**, or **Load Chat** buttons as needed.
+
+3. Use Clear Chat, Save Chat, or Load Chat buttons as needed.
 
 Purpose
 This project was built to practice Python GUI development, AI integration, and multithreading. 
