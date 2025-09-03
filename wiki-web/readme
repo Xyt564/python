@@ -31,4 +31,10 @@ Future Improvements
 4) Add a rich text editor
 5) Dark and light mode themes
 
-Do not forget to update your folder path in the app.py so it goes to file structure. in there you'll see an ## text where it shows you where to add it
+Do not forget to update your folder path in the app.py so it goes to file structure. 
+in there you'll see an ## text where it shows you where to add it
+
+Installation
+The required packages are Flask Run:
+
+pip install Flask
