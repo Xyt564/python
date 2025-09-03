@@ -1,1 +1,40 @@
+Project Name: Basic Wiki App
 
+Overview
+A simple desktop wiki application built with Python, CustomTkinter, and Tkinter. 
+It uses a JSON file for data storage, allowing users to create, edit, and manage wiki pages in a clean graphical interface.
+
+Features
+1) Create, edit, and view wiki pages
+2) Store and load data from wiki.json
+3) Modern interface using CustomTkinter and Tkinter
+4) Lightweight and easy to run locally
+5) Support for multiple pages with quick access
+
+Tech Stack
+1) Python 3
+2) CustomTkinter and Tkinter for GUI
+3) JSON for page storage
+4) OS, threading, and time modules for system tasks and responsiveness
+
+Setup Requirement
+The app requires you to set the path where the `wiki.json` file will be stored. Update the `data_dir` variable in the code with the path to your repository. 
+
+Example:
+---------- DATA FILE ----------
+data_dir = ""  # Include your file path to where you've saved the repo, e.g. ~/downloads/wiki
+os.makedirs(data_dir, exist_ok=True)
+wiki_file = os.path.join(data_dir, "wiki.json")
+if not os.path.exists(wiki_file):
+    with open(wiki_file, "w") as f:
+        json.dump({}, f)
+
+Purpose
+This project was created to practice Python GUI development and JSON-based data management. It can be used as a personal wiki or note-taking tool.
+
+7. Future Improvements
+4) Add export to text or markdown
+5) Dark and light theme switching
+
+The required packages are stored in the requirements.txt just run pip install -r requirements.txt to download them
+Also for tkinter run - sudo apt install python3-tk
