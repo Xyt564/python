@@ -1,1 +1,40 @@
+Hacker News Scraper (Python GUI)
+
+A simple Python GUI application to fetch and display the latest Hacker News headlines in a readable, bold font. 
+Built with CustomTkinter for a modern, dark-themed interface.
+
+Features
+
+* Fetches the latest headlines from [Hacker News] (https://news.ycombinator.com/).
+* Displays headlines in a bold, easy-to-read font.
+* Dark theme GUI using CustomTkinter.
+* Scrollable text box for viewing multiple headlines.
+
+
+Requirements
+
+* Python 3.10+
+* `requests`
+* `beautifulsoup4`
+* `customtkinter`
+
+You can install the dependencies via: pip install -r requirements.txt
+
+Usage
+
+1. Clone the repository using: git clone https://github.com/Xyt564/python.git/webscrapper
+
+2. Run the scraper using: python3 scrapper.py
+
+3. The GUI will open and display the latest Hacker News headlines.
+
+Notes
+
+* The scraper relies on Hacker News HTML structure; if the site updates its layout, the scraper may require adjustments.
+* Headlines are displayed in a bold font for better readability.
+
+License
+
+You can use this project freely for **personal or educational purposes**. See [LICENSE](../LICENSE) for details.
+
 
