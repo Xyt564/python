@@ -1,5 +1,3 @@
-Perfect! Here's a more **structured, detailed, and professional** `SECURITY.md` for your GitHub repo, tailored for your learning/personal projects:
-
 # Security Policy
 
 ## Supported Versions
