@@ -1,1 +1,54 @@
+Project Name: Password Manager
+
+Overview
+A desktop application for securely storing and managing passwords using Python, CustomTkinter, and cryptography. 
+The app encrypts passwords with Fernet symmetric encryption, allowing users to safely save, view, and manage credentials locally in a JSON file.
+
+Features
+
+1. Add new password entries (Site, Username, Password)
+2. Encrypts passwords securely using Fernet
+3. Save and load data from `vault.json`
+4. View saved passwords in a readable format after decryption
+5. Modern dark-themed GUI with CustomTkinter
+6. Lightweight and easy to run locally
+7. Automatically generates and stores encryption key in `key.key`
+
+Tech Stack
+
+1. Python 3
+2. CustomTkinter and Tkinter for GUI
+3. cryptography (Fernet) for encryption and decryption
+4. JSON for local storage
+5. OS module for file handling
+
+Setup Requirements
+
+1. Install required Python packages from `requirements.txt`: run pip install -r requirements.txt
+
+
+2. On Linux, ensure Tkinter is installed: run sudo apt install python3-tk
+
+
+Usage
+
+1. Run the application: run python3 pas.py
+
+
+2. Enter the site, username, and password, then click “Add” to save
+3. Click “Show Saved” to view all decrypted entries
+4. All passwords are encrypted locally in `vault.json` using a generated `key.key`
+
+Purpose
+This project was created to practice Python GUI development, data encryption, and local secure storage. 
+It demonstrates how to combine CustomTkinter with cryptography for practical desktop applications.
+
+Future Improvements
+
+1. Add search functionality for saved passwords
+2. Implement password strength checks
+3. Add export/import functionality with encrypted backups
+4. Implement a master password for access
+5. Add themes or improved UI layouts
+
 
