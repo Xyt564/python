@@ -1,1 +1,46 @@
+Project Name: Countdown Timer App
+
+Overview
+A sleek and simple desktop countdown timer built with Python, CustomTkinter, and Tkinter. 
+The app allows users to set a countdown in minutes and seconds, then start, pause, resume, or reset the timer. 
+When the countdown reaches zero, an alarm sound is played to notify the user. 
+This project demonstrates GUI development, user input handling, and multimedia integration in Python.
+
+Features
+
+1. Input countdown time in minutes and seconds
+2. Start, pause, resume, and reset functionality
+3. Visual countdown display with large, easy-to-read digits
+4. Plays a sound alarm when time is up
+5. Modern dark-themed interface using CustomTkinter
+
+Tech Stack
+
+1. Python 3
+2. CustomTkinter and Tkinter for GUI
+3. `playsound` package for alarm notifications
+4. OS module for handling file paths
+
+Setup Requirements
+
+1. Install required Python packages from `requirements.txt`: run pip install -r requirements.txt
+
+2. On Linux systems, make sure Tkinter is installed: run sudo apt install python3-tk
+
+3. Ensure an `alarm.wav` file is present in the same directory as the script.
+
+4. Run the script: python3 countdown_app.py
+
+
+Purpose
+This project was built to practice Python GUI development, event-driven programming, and multimedia integration. 
+It can be used as a personal timer for productivity, study sessions, workouts, or any other activity that requires time tracking.
+
+Future Improvements
+
+1. Add multiple preset timers (e.g., Pomodoro technique)
+2. Allow custom alarm sounds
+3. Include notifications outside the app window
+4. Dark/light theme toggle or custom color themes
+5. Add keyboard shortcuts for faster control
 
