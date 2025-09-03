@@ -4,7 +4,7 @@ import json, os
 app = Flask(__name__)
 
 # Path to your wiki.json
-data_file = "/media/xyt564/sd_card/python/new/wiki-web/wiki.json"
+data_file = "" ## Add your Path where ur files are stores here e.g ~/Downloads/wiki-web
 os.makedirs(os.path.dirname(data_file), exist_ok=True)
 if not os.path.exists(data_file):
     with open(data_file, "w") as f:
