@@ -58,3 +58,17 @@ How to Explore
 Each project is stored in its own folder with relevant code files and, where applicable, README files for individual instructions. 
 Users can navigate the repository to explore projects, test code, and learn from my implementations.
 
+Disclaimer
+
+These projects are personal backups and experiments.  
+They are stored here primarily to avoid losing them.  
+
+⚠️ They are not actively maintained, and some may be incomplete or outdated.  
+Use at your own risk.  
+
+All code is for personal reference only and is not intended for production use.  
+You may look at the code, but do not redistribute without permission.
+
+if you wish to download and use them go ahead just do not change or make any edits to them 
+
+
