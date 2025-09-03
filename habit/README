@@ -1,7 +1,9 @@
 Project Name: Habit Tracker
 
 Overview
-A simple command-line habit tracker built with Python. This app allows you to add habits, mark them as completed for the day, and view your progress over time. Progress is saved in a local JSON file so your data is persistent across sessions.
+A simple command-line habit tracker built with Python. 
+This app allows you to add habits, mark them as completed for the day, and view your progress over time. 
+Progress is saved in a local JSON file so your data is persistent across sessions.
 
 Features
 
