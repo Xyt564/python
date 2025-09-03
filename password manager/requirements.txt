@@ -1,2 +1,2 @@
-cryptography==3.4.8
-customtkinter==5.2.2
+cryptography
+customtkinter
