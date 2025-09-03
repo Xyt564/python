@@ -1,1 +1,54 @@
+Python Port Scanner
+
+Overview
+A lightweight and intuitive port scanning application built with Python and CustomTkinter. 
+This GUI-based tool allows users to quickly scan a range of ports on a target host, displaying open ports in real-time along with a progress indicator.
+
+Features
+
+1. Scan any host within a specified port range
+2. Real-time display of open ports
+3. Multithreaded scanning for faster results
+4. Visual progress bar to track scan completion
+5. User-friendly GUI built with **CustomTkinter**
+6. Default target included (`scanme.nmap.org`) for testing
+7. Supports both small and large port ranges
+
+Tech Stack
+
+1. Python 3
+2. CustomTkinter for GUI
+3. `socket` module for TCP connection checks
+4. `threading` for concurrent scanning
+
+Setup Requirements
+
+1. Python 3 installed on your system
+
+2. Install dependencies from `requirements.txt` using: pip install -r requirements.txt
+
+3. For Linux users, make sure Tkinter is installed: run sudo apt install python3-tk
+
+Usage
+
+1. Run the app: python3 port.py
+
+
+2. Enter the target host (IP or domain)
+3. Specify the start and end ports to scan
+4. Click **Start Scan**
+5. Monitor the real-time results and progress bar
+
+Purpose
+This project was created to practice network programming, Python GUI development, and multithreaded applications. 
+It can be used for educational purposes or to quickly check open ports on hosts you have permission to scan.
+
+Future Improvements
+
+1. Add UDP scanning support
+2. Include service detection for open ports
+3. Save scan results to a file (CSV or JSON)
+4. Add IP range scanning for multiple hosts
+5. Implement color-coded output for faster readability
+
 
