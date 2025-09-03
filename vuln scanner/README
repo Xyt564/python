@@ -1,1 +1,71 @@
+Vulnerability Scanner (Python CTk)
+
+Overview
+A Python-based vulnerability scanner GUI built with CustomTkinter, designed to perform comprehensive scans on a target host. 
+The tool includes port scanning, HTTP security checks, directory probing, and optional nmap service/version detection.
+
+Features
+
+1. TCP port scanning with banner grabbing
+2. HTTP header security checks (HSTS, CSP, X-Frame-Options, etc.)
+3. Directory brute-forcing** using a wordlist
+4. Optional nmap service/version scan if python-nmap is installed
+5. Multi-threaded scanning for efficiency
+6. GUI interface with CustomTkinter
+7. Real-time results display with status updates
+8. Save scan reports as JSON files
+
+Dependencies / Requirements
+
+* Python 3.8+
+* `requests` – for HTTP probing
+* `customtkinter` – GUI framework
+* `python-nmap` (optional) – for advanced nmap scanning
+* `tkinter` – for dialogs (usually included with Python)
+
+Install dependencies with pip: run pip install requests customtkinter python-nmap or use the requirements.txt with pip install -r requirements.txt
+
+
+**Usage**
+
+1. Run the app: python3 test.py
+
+
+2. Enter the target hostname or IP address
+3. Specify ports (comma-separated) or leave blank for default common ports
+4. Optionally enable nmap and directory probe
+5. Choose a wordlist file for directory scanning (optional)
+6. Set a delay between directory requests (optional)
+7. Click Start Scan to begin
+8. Monitor results in real-time and save the report when finished
+
+Configuration Options
+
+* Ports: comma-separated, default includes common ports
+* Nmap scan: requires python-nmap and nmap binary installed
+* Directory probe: scans paths from a wordlist for valid directories
+* Rate delay: seconds between directory requests
+
+Output
+
+* Open ports with banners
+* HTTP headers with missing security headers
+* Found directories during directory scan
+* Optional nmap scan results
+* Reports can be saved in JSON format
+
+Purpose
+This tool is designed for ethical penetration testing and security auditing on hosts you have permission to scan. 
+It helps identify open services, weak HTTP configurations, and exposed directories.
+
+Future Improvements
+
+1. Add UDP scanning
+2. Auto-detect web application frameworks
+3. Export reports in HTML or CSV
+4. Support scanning multiple targets at once
+5. Include CVE references for detected vulnerabilities
+
+Important Note - Always scan only hosts you own or have explicit permission to test. Unauthorized scanning is illegal and unethical.
+
 
