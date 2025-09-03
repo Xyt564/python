@@ -2,8 +2,7 @@ Keylogger Project
 
 A simple Python keylogger with a Flask server for capturing and viewing keystrokes.
 
-Disclaimer: This project is for educational purposes only. 
-Do not use it on devices you don’t own or have permission to monitor.
+Disclaimer: This project is for educational purposes only. Do not use it on devices you don’t own or have permission to monitor.
 
 
 Features
@@ -16,7 +15,7 @@ Features
 
 Requirements
 
-1. Python 3.8 or higher
+1. Python 3.8 or higher // just run sudo apt install python3 on linux usually gets a high enough version e.g python 3.12
 
 2. Python dependencies listed in `requirements.txt`:
 
@@ -25,46 +24,24 @@ Requirements
    * requests
    * MarkupSafe
 
-3. Install dependencies using:
+3. Install dependencies using: pip install -r requirements.txt
 
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-4. For Linux users, system dependencies may be required for `pynput`:
+4. For Linux users, system dependencies may be required for `pynput`: sudo apt install python3-dev python3-wheel libevdev-dev
 
-   ```bash
-   sudo apt install python3-dev python3-wheel libevdev-dev
-   ```
+Setup
 
-## Setup
+1. Clone the repository: run git clone https://github.com/Xyt564/python.git/Keylogger
 
-1. Clone the repository:
 
-   ```bash
- https://github.com/Xyt564/python.git/Keylogger
-   cd Keylogger
-   ```
+2. Start the server: run python3 server.py
 
-2. Start the server:
+The server runs on `http://0.0.0.0:5000` by default. Open in a browser: http://<server-ip>:5000/view or on the terminal do ctrl click on the link
 
-   ```bash
-   python3 server.py
-   ```
 
-   The server runs on `http://0.0.0.0:5000` by default. Open in a browser:
+3. Start the keylogger: run python3 keylogger.py
 
-   ```
-   http://<server-ip>:5000/view
-   ```
-
-3. Start the keylogger:
-
-   ```bash
-   python3 keylogger.py
-   ```
-
-   Keystrokes will be sent to the server and saved locally in `keylog.txt`.
+Keystrokes will be sent to the server and saved locally in `keylog.txt`.
 
 
 File Structure
