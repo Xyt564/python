@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} - Local Wiki</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Local Wiki</h1>
+        <a href="{{ url_for('index') }}">← Back to Notes</a>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                {% for key in all_notes %}
+                    <li><a href="{{ url_for('note', title=key) }}">{{ key }}</a></li>
+                {% endfor %}
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <h2>{{ title }}</h2>
+            <form method="POST">
+                <label>Tags (comma-separated):</label>
+                <input type="text" name="tags" value="{{ ', '.join(note.tags) }}">
+                <label>Content:</label>
+                <textarea name="content" rows="15">{{ note.content }}</textarea>
+                <button type="submit">Save</button>
+                <a class="delete-btn" href="{{ url_for('delete', title=title) }}">Delete</a>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
