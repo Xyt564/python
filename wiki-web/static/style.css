@@ -1,0 +1,131 @@
+/* GENERAL */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header form {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+header input[type="text"] {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    width: 200px;
+}
+
+header button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #50C878;
+    color: white;
+    cursor: pointer;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: 20px auto;
+    height: calc(100vh - 120px); /* full height minus header */
+}
+
+/* SIDEBAR */
+.sidebar {
+    flex: 1;
+    background-color: #383838;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #E0E0E0;
+    text-decoration: none;
+    transition: color 0.2s, outline 0.2s;
+    padding: 2px 4px;
+    display: inline-block;
+}
+
+.sidebar a:hover,
+.sidebar a:focus,
+.sidebar a.active {
+    color: #50C878;
+    outline: 2px solid #50C878;
+    outline-offset: 2px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    flex: 3;
+    margin-left: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.main-content textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.main-content button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #50C878;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+}
