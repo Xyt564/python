@@ -1,1 +1,32 @@
+Project Name: Web Wiki
 
+Overview
+A lightweight wiki platform built with HTML, CSS, JavaScript, JSON, and Python. 
+It allows users to create, edit, and manage pages in a simple interface, showing how frontend and backend technologies can work together.
+
+Features
+
+1) Create, edit, and view wiki pages
+2) Store data using JSON for easy management
+3) Interactive frontend built with HTML, CSS, and JavaScript
+4) Python backend to handle content serving and updates
+5) Search functionality for quick navigation
+6) Minimal design that is easy to customize
+
+Tech Stack
+
+1) HTML, CSS, JavaScript for frontend
+2) JSON for page storage
+3) Python for backend logic
+
+Purpose
+This project was built to demonstrate how a full-stack application can be developed without heavy frameworks. 
+It works as a personal wiki, documentation tool, or lightweight knowledge management system.
+
+Future Improvements
+
+1) Add user authentication
+2) Implement page version history
+3) Support markdown editing
+4) Add a rich text editor
+5) Dark and light mode themes
