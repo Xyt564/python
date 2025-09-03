@@ -85,3 +85,6 @@ Usage
 Notes
 1. Ensure your firewall allows connections if running the server on a separate machine.
 2. This project is intended for learning purposes, testing in controlled environments only.
+
+
+Reminder - Do not forget to add your ip into the keylogger.py to start ur app on that ip or leave it blank and it will start on 0.0.0.0:5000 bascially your local host
