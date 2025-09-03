@@ -29,7 +29,7 @@ root.minsize(800, 500)
 root.configure(bg=BG)
 
 # ---------- DATA FILE ----------
-data_dir = "/media/xyt564/sd_card/python/new/wiki"
+data_dir = "" ## Include your file path to where you've saved the git repo e.g. ~/downloads/wiki
 os.makedirs(data_dir, exist_ok=True)
 wiki_file = os.path.join(data_dir, "wiki.json")
 if not os.path.exists(wiki_file):
