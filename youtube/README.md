@@ -9,10 +9,7 @@ Lightweight and easy to use, no extra setup required
 Tkinter-based GUI for a clean, intuitive interface
 Powered by pytubefix for reliable video downloading
 
-Tech Stack:
-Python 3  
-Tkinter 
-pytubefix 
+Tech Stack: Python 3, Tkinter and pytubefix 
 
 Purpose: This app was built as a learning project to practice:
 
