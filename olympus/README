@@ -1,1 +1,57 @@
+Project Name: Olympus: The Twelve Gods
+
+Overview
+
+A fun and interactive **desktop app** built with Python and CustomTkinter, showcasing the twelve Olympian gods from Greek mythology. 
+Users can explore each god via clickable cards, view detailed popups containing descriptions, domains, epithets, family relations, famous myths, symbols, and fun facts. 
+This project demonstrates GUI design, image handling, and dynamic layouts in Python.
+
+Features
+
+1. Scrollable interface with cards for each of the twelve Olympian gods
+2. Clickable cards to display detailed popups for each god
+3. Includes descriptions, Roman names, domains, epithets, symbols, family, myths, and fun facts
+4. Preloads images for visual representation of gods
+5. Responsive layout that adjusts card grid based on window size
+6. Modern dark-themed GUI using CustomTkinter
+
+Tech Stack
+
+1. Python 3
+2. CustomTkinter and Tkinter for GUI
+3. Pillow (PIL) for image handling and resizing
+4. OS and random modules for file management and dynamic features
+
+Setup Requirements
+
+1. Install required packages from `requirements.txt`: run pip install -r requirements.txt
+
+
+2. On Linux systems, ensure Tkinter is installed: run sudo apt install python3-tk
+
+
+3. Place images for each god in an `images` folder within the same directory as the script. 
+Filenames should match the god’s name (case-insensitive).
+
+Usage
+
+1. Run the script: python3 olympus_app.py
+
+
+2. Scroll through the cards to view all twelve gods
+3. Click any god card to open a detailed popup with additional information
+4. Explore myths, symbols, epithets, domains, and fun facts for each god
+
+Purpose
+This project was created for fun and learning, combining Python GUI skills with creativity. 
+It demonstrates how to build interactive applications with dynamic layouts, handle images, and display structured data in a visually engaging way. 
+It’s a playful exploration of mythology while practicing Python programming and GUI design.
+
+Future Improvements
+
+1. Add search or filter functionality to quickly find a god
+2. Include animations or transitions for popups
+3. Allow users to add their own mythological figures
+4. Add more multimedia elements such as sound or video
+5. Enhance responsiveness for different screen sizes
 
