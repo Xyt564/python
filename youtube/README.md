@@ -26,4 +26,11 @@ Future Improvements
 2. Show download progress bar
 3. Support playlist downloads
 4. Option for MP3/audio-only downloads
-5. Dark/light mode toggle
+
+
+Installation
+The required packages are stored in `requirements.txt`. Run:
+
+pip install -r requirements.txt
+
+6. Dark/light mode toggle
