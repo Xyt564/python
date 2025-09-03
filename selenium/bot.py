@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.options import Options
 import time, random
 
 # ------------------- Setup -------------------
-driver_path = "/media/xyt564/sd_card/python/new/selenium/geckodriver"
+driver_path = "" ## Add your own path here to where ur geckodriver or chrome driver is 
 service = Service(driver_path)
 
 options = Options()
