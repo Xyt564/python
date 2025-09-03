@@ -1,0 +1,87 @@
+Selenium Google Bot
+
+A Python bot using Selenium to open Google, automatically accept the cookies consent popup, and perform basic automated browsing. Ideal for learning browser automation.
+
+
+Features
+
+* Opens Google in a browser automatically.
+* Detects and clicks the "Accept all" button on the cookies consent popup.
+* Compatible with Firefox and Chrome.
+* Lightweight and easy to set up for personal use or learning Selenium.
+
+Prerequisites
+
+* Python 3.10+
+* Selenium Python package (installed via your `requirements.txt`)
+* A browser (Firefox or Chrome) installed on your system
+
+Install dependencies from your `requirements.txt`: pip install -r requirements.txt
+
+Browser Drivers
+
+Selenium requires **drivers** specific to the browser you want to automate.
+
+Firefox
+
+1. Download GeckoDriver from [Mozilla GeckoDriver releases](https://github.com/mozilla/geckodriver/releases).
+
+2. Choose the **Linux 64-bit** version (not ARM/AARCH64 unless your CPU is ARM).
+
+3. Extract it and move it into your project folder: mv geckodriver /path/to/project/ then chmod +x geckodriver
+
+
+4. Ensure your script points to the driver if necessary: i marked the spot using "##" as to where u should add your driver path
+
+Chrome
+
+1. Download **ChromeDriver** matching your installed Chrome version from [ChromeDriver downloads](https://chromedriver.chromium.org/downloads).
+
+2. Extract it and move it to your project folder: chromedriver /path/to/project/ then chmod +x chromedriver
+
+
+3. Initialize the driver in your script: i marked the spot using "##" as to where u should add your driver path
+
+
+Important: ChromeDriver version must match your Chrome version exactly.
+
+
+Project Structure
+
+selenium/
+│
+├── bot.py           # Main Selenium bot script
+├── geckodriver      # Firefox driver binary (if using Firefox)
+├── chromedriver     # Chrome driver binary (if using Chrome)
+├── requirements.txt
+├── README.md
+
+
+Usage
+
+1. Navigate to your project folder: cd /path/to/selenium
+
+
+2. Run the bot using: python3 bot.py
+
+
+3. The bot will:
+
+   * Open your browser (Firefox or Chrome).
+   * Navigate to Google.
+   * Automatically accept the cookies consent popup.
+
+
+Notes & Tips
+
+Google may detect automation and display captchas. To reduce this:
+
+  * Avoid too many requests in a short period.
+  * Use realistic delays, scrolling, or mouse movements.
+  * Consider randomizing user-agent strings.
+
+* Make sure your driver binaries are **executable**: by running chmod +x geckodriver or chmod +x chromedriver
+
+
+This bot is intended for **personal use and learning**. Do not violate website terms of service.
+
