@@ -1,5 +1,4 @@
-python youtube app
-YouTube Video Downloader
+python YouTube Video Downloader
 
 A simple yet functional GUI app to download YouTube videos directly from your desktop. Built with Python, Tkinter, and the pytubefix package, this project demonstrates how easy it can be to combine a clean user interface with powerful backend functionality.
 
