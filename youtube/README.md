@@ -26,4 +26,4 @@ Future Improvements
 2. Show download progress bar
 3. Support playlist downloads
 4. Option for MP3/audio-only downloads
-* Dark/light mode toggle
+5. Dark/light mode toggle
