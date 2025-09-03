@@ -1,106 +1,87 @@
-Absolutely! Here’s a clean, professional **README** you can use for your GitHub repo. I’ve included sections for setup, usage, requirements, and a brief explanation of how it works.
-
----
-
-# Keylogger Project
+Keylogger Project
 
 A simple Python keylogger with a Flask server for capturing and viewing keystrokes.
 
-**⚠️ Disclaimer:** This project is for **educational purposes only**. Do **not** use it on devices you don’t own or have permission to monitor.
+Disclaimer: This project is for educational purposes only. 
+Do not use it on devices you don’t own or have permission to monitor.
 
----
 
-## Features
+Features
 
-* Records keystrokes using `pynput`
-* Automatically creates a local log file if it doesn’t exist
-* Sends captured keystrokes to a Flask server
-* View captured logs in a clean, readable web interface
-* Handles special keys like Shift, Ctrl, Alt, Backspace, Enter, Tab
+1. Records keystrokes using `pynput`
+2. Automatically creates a local log file if it doesn’t exist
+3. Sends captured keystrokes to a Flask server
+4. View captured logs in a clean, readable web interface
+5. Handles special keys like Shift, Ctrl, Alt, Backspace, Enter, Tab
 
----
+Requirements
 
-## Requirements
+1. Python 3.8 or higher
 
-All Python dependencies are listed in `requirements.txt`:
+2. Python dependencies listed in `requirements.txt`:
 
-```
-Flask
-pynput
-requests
-MarkupSafe
-```
+   * Flask
+   * pynput
+   * requests
+   * MarkupSafe
 
-Make sure you have **Python 3.8+** installed.
+3. Install dependencies using:
 
-Install dependencies with:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-pip install -r requirements.txt
-```
+4. For Linux users, system dependencies may be required for `pynput`:
 
-For Linux, you may also need system dependencies for `pynput`:
-
-```bash
-sudo apt install python3-dev python3-wheel libevdev-dev
-```
-
----
+   ```bash
+   sudo apt install python3-dev python3-wheel libevdev-dev
+   ```
 
 ## Setup
 
-1. **Clone the repository:**
+1. Clone the repository:
 
-```bash
-git clone <your-repo-url>
-cd <repo-folder>
-```
+   ```bash
+   git clone <your-repo-url>
+   cd <repo-folder>
+   ```
 
-2. **Start the server:**
+2. Start the server:
 
-```bash
-python3 server.py
-```
+   ```bash
+   python3 server.py
+   ```
 
-By default, the server runs on `http://0.0.0.0:5000`. Open in your browser:
+   The server runs on `http://0.0.0.0:5000` by default. Open in a browser:
 
-```
-http://<server-ip>:5000/view
-```
+   ```
+   http://<server-ip>:5000/view
+   ```
 
-3. **Start the keylogger:**
+3. Start the keylogger:
 
-```bash
-python3 keylogger.py
-```
+   ```bash
+   python3 keylogger.py
+   ```
 
-Keystrokes will be sent to the server and also saved locally in `keylog.txt`.
-
----
-
-## File Structure
-
-```
-├── keylogger.py       # Main keylogger script
-├── server.py          # Flask server to receive and display logs
-├── requirements.txt   # Python dependencies
-├── keylog.txt         # Local log file (created automatically)
-└── README.md
-```
-
----
-
-## Usage
-
-* Run the server first, then the keylogger.
-* Navigate to `/view` on your server in a browser to see captured logs.
-* Press `ESC` in the keylogger to stop logging.
-
----
-
-## Notes
-
-* Ensure your firewall allows connections if running the server on a separate machine.
-* This project is intended for learning purposes, testing in controlled environments only.
+   Keystrokes will be sent to the server and saved locally in `keylog.txt`.
 
 
+File Structure
+
+1. `keylogger.py` – Main keylogger script
+2. `server.py` – Flask server to receive and display logs
+3. `requirements.txt` – Python dependencies
+4. `keylog.txt` – Local log file (created automatically)
+5. `README.md` – This file
+
+Usage
+
+1. Run the server first, then the keylogger.
+2. Navigate to `/view` on your server in a browser to see captured logs.
+3. Press `ESC` in the keylogger to stop logging.
+
+
+Notes
+1. Ensure your firewall allows connections if running the server on a separate machine.
+2. This project is intended for learning purposes, testing in controlled environments only.
