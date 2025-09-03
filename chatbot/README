@@ -1,1 +1,59 @@
+Project Name: Polished AI Chat
+
+Overview
+A simple desktop AI chatbot built with Python and CustomTkinter. 
+The app allows users to chat with a locally running AI model for text generation. 
+The chatbot features a modern dark-themed GUI with message bubbles, save/load chat functionality, and typing indicators.
+
+Important Note
+This app uses a **smaller AI model (EleutherAI/gpt-neo-125M) to accommodate systems with limited RAM (e.g., 4GB). 
+Due to hardware constraints, responses may be slower compared to larger models.
+(This is due to the fact ive got a laptop with only 4GB ram so im very limited and this doesnt work well)
+(Model is very limited and doesnt run well)
+(If u do use it which i dont reccomend do no expect much)
+(I only made this for fun tbh)
+
+Features
+
+1. Chat with an AI in a scrollable, bubble-style interface
+2. Save and load previous chats to/from text files
+3. Clear the chat at any time
+4. Typing indicator to show when AI is generating a response
+5. Modern dark-themed GUI using CustomTkinter
+
+Tech Stack
+
+1. Python 3
+2. CustomTkinter and Tkinter for GUI
+3. Hugging Face Transformers (`pipeline`) for AI text generation
+4. Threading for non-blocking AI response generation
+5. Plays nicely with small RAM systems by using a lightweight AI model
+
+Setup Requirements
+
+1. Install required packages from `requirements.txt`: run pip install -r requirements.txt
+
+
+2. On Linux systems, make sure Tkinter is installed: run sudo apt install python3-tk
+
+3. Recommended: run on a system with at least 4GB RAM (higher RAM will improve performance).
+
+Usage
+
+1. Run the script: run python chatbot_app.py
+
+2. Type your message in the input box and press **Enter** or click **Send**. (very bugged app does work but often rambles due to the limitations)
+3. Use **Clear Chat**, **Save Chat**, or **Load Chat** buttons as needed.
+
+Purpose
+This project was built to practice Python GUI development, AI integration, and multithreading. 
+It demonstrates how a local text-generation model can be integrated into a functional, user-friendly desktop application.
+
+Future Improvements
+
+1. Support larger models for faster and more accurate responses (on higher RAM systems)
+2. Add conversation history with timestamping
+3. Include multiple AI personalities or modes
+4. Improve UI with additional themes and customization options
+5. Optimize performance for low-RAM devices
 
