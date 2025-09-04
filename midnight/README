@@ -1,4 +1,4 @@
-# Midnight Countdown ⏳🌙
+Midnight Countdown ⏳🌙
 
 A simple **Python desktop app** built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) that shows a **live countdown to midnight**.
 It updates every second and displays the remaining hours, minutes, and seconds until the next day begins.
