@@ -1,91 +1,41 @@
-Midnight Countdown ⏳🌙
+Midnight Countdown 
 
-A simple **Python desktop app** built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) that shows a **live countdown to midnight**.
+A simple Python desktop app built with CustomTkinter that shows a live countdown to midnight.
 It updates every second and displays the remaining hours, minutes, and seconds until the next day begins.
 
----
+Features
 
-## ✨ Features
+1. Real-time countdown to midnight
+2. Modern dark theme with a green accent (CustomTkinter)
+3. Centered, fixed-size window for a clean UI
+4. Updates automatically every second
 
-* 🕒 Real-time countdown to midnight
-* 🎨 Modern dark theme with a green accent (CustomTkinter)
-* 📐 Centered, fixed-size window for a clean UI
-* 🔄 Updates automatically every second
+Requirements
 
----
+1. Python 3.10+ recommended
+2. CustomTkinter
 
-## 📦 Requirements
+Install dependencies with using: pip install customtkinter
 
-* Python **3.10+** recommended
-* [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
 
-Install dependencies with:
+On Linux, you may also need to install python3-tk: run sudo apt install python3-tk
 
-```bash
-pip install customtkinter
-```
+Usage
 
-> On **Linux**, you may also need to install `python3-tk`:
+1. Clone this repo or copy the script into a file, e.g /mighnight/app.py
+2. Run the app: run python3 app.py
 
-```bash
-sudo apt install python3-tk
-```
-
----
-
-## 🚀 Usage
-
-1. Clone this repo or copy the script into a file, e.g. `midnight_countdown.py`
-2. Run the app:
-
-```bash
-python3 midnight_countdown.py
-```
 
 3. A window will appear with a live countdown timer until midnight.
 
----
+Example Output (GUI)
 
-## 🖼️ Screenshot
-
-*(Optional: You can add a screenshot of the app here later for your GitHub repo)*
-
----
-
-## ⚡ Example Output (GUI)
-
-```
 Time Until Midnight
 23:15:42
-```
 
 The timer updates every second until it resets at midnight.
 
----
+Project Structure
 
-## 📂 Project Structure
-
-```
-midnight_countdown/
-├── midnight_countdown.py   # Main script
-├── requirements.txt        # Dependencies
-└── README.md               # Documentation
-```
-
----
-
-## 🛡️ Notes
-
-* This project is made for **learning and personal use**.
-* The app runs entirely locally—no internet required.
-* You can change the **theme color** by editing this line:
-
-```python
-ctk.set_default_color_theme("green")
-```
-
-Options: `"blue"`, `"green"`, `"dark-blue"`
-
----
-
-
+midnight
+├── app.py
