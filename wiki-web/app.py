@@ -72,4 +72,7 @@ def delete(title):
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Do not enable debug mode by default!
+    # To run with debug mode, set the environment variable FLASK_DEBUG=1
+    debug_mode = os.environ.get("FLASK_DEBUG") == "1"
+    app.run(debug=debug_mode)
