@@ -45,11 +45,24 @@ git clone https://github.com/Xyt564/python
 ```
 
 
-run the script:
+get into the folder:
 
 ```bash
-python3 banner.py
+cd python
 ```
+
+Then:
+
+```
+cd asci_art_banner_project
+```
+
+To run the file:
+
+```
+python3 terminal_banner_script.py
+```
+
 
 To stop the animation, just press:
 
