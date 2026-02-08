@@ -91,25 +91,29 @@ git clone https://github.com/Xyt564/python.git
 cd python
 ```
 
+### This moves the yt-tui folder to the Downloads folder
+
 ```
 mv yt-tui ~/Downloads/
 ```
-# This moves the yt-tui folder to the Downloads folder
+
+### This take you back to when you cloned the repo originally
 
 ```
 cd ..
 ```
-# This take you back to when you cloned the repo originally
+
+### This gets rid of the entire python folder and all the unnecasary files
 
 ```
 rm -rf ~/python/
 ```
-# This gets rid of the entire python folder and all the unnecasary files
+
+# Takes you directly to the yt-tui folder
 
 ```
 cd Downloads/yt-tui/
 ```
-# Takes you directly to the yt-tui folder
 
 ---
 
