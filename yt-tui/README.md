@@ -71,8 +71,12 @@ brew install mpv python
 
 ```bash
 git clone https://github.com/Xyt564/python.git
-cd youtube-tui
 ```
+
+```
+cd yt-tui
+```
+
 (You may delete the other projects if u dont want them)
 
 ---
