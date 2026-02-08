@@ -67,21 +67,7 @@ brew install mpv python
 
 ---
 
-### 2️⃣ Clone the repo (This will download this entire repo and all the projects within it)
-
-```bash
-git clone https://github.com/Xyt564/python.git
-```
-
-```
-cd python
-```
-
-```
-cd yt-tui
-```
-
-### Optional: Delete all the other projects (Recommended for users with low storage)
+## Recommended: Delete all the other projects
 
 ```bash
 git clone https://github.com/Xyt564/python.git
@@ -117,7 +103,7 @@ cd Downloads/yt-tui/
 
 ---
 
-### 3️⃣ Install Python dependencies
+#### 3️⃣ Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
