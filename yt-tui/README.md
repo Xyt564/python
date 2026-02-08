@@ -77,7 +77,7 @@ git clone https://github.com/Xyt564/python.git
 cd yt-tui
 ```
 
-(You may delete the other projects if u dont want them)
+(You can delete the other projects if you don’t want them)
 
 ---
 
