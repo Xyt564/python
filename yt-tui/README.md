@@ -39,11 +39,11 @@ Built mainly on **Pop!_OS / Linux**, but it should work on **any system** that s
 * `rich`
 * `yt-dlp`
 
-(Yes, it will auto-install them if missing — but don’t rely on that if your system is cursed.)
+> ⚠️ Note: It will try to auto-install missing dependencies, but it’s better if your system already has them installed.
 
 ---
 
-## 🚀 Installation (read carefully, please)
+## 🚀 Installation (step by step)
 
 ### 1️⃣ Install system dependencies
 
@@ -67,52 +67,56 @@ brew install mpv python
 
 ---
 
-## Recommended: Delete all the other projects
+## 2️⃣ Clone and move the yt-tui folder
 
-#### This clones the entire repo
+> This section **removes all other projects in the repo** and keeps only `yt-tui`.
+> ⚠️ Make sure you don’t need other files before running the cleanup commands.
+
+#### Clone the repo
+
 ```bash
 git clone https://github.com/Xyt564/python.git
 ```
 
-#### This command gets you into the repo directory
+#### Enter the repo
 
 ```bash
 cd python
 ```
 
-#### This moves the yt-tui folder to the Downloads folder
+#### Move `yt-tui` to Downloads
 
 ```bash
 mv yt-tui ~/Downloads/
 ```
 
-#### This take you back to the directory you cloned the repo originally
+#### Goes back to the directory where you cloned the repo folder
 
 ```bash
 cd ..
 ```
 
-#### This gets rid of the entire python repo folder and all the unnecessary files
-**(warning: This will get rid of all the files in this python repo so if you wish to keep any move them beforehand using mv or ur file manager)**
+#### Remove the entire repo (optional but highly recommended)
+
 ```bash
 rm -rf ~/python/
 ```
 
-#### Takes you directly to the yt-tui folder
+#### Enter the `yt-tui` folder
 
 ```bash
-cd Downloads/yt-tui/
+cd ~/Downloads/yt-tui/
 ```
 
 ---
 
-#### 3️⃣ Install Python dependencies
+## 3️⃣ Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#### If your distro complains (looking at you, Ubuntu / Pop os):
+> If your distro complains (Ubuntu / Pop!_OS), run:
 
 ```bash
 pip install -r requirements.txt --break-system-packages
@@ -120,30 +124,28 @@ pip install -r requirements.txt --break-system-packages
 
 ---
 
-### 4️⃣ Run it
+## 4️⃣ Run the app
 
 ```bash
 python3 main.py
 ```
 
-That’s it. If this step fails, reread steps **1–3**. Slowly.
+> If this step fails, double-check steps **1–3** slowly.
 
 ---
 
 ## 🎮 Usage
 
-Once running, use these commands:
+| Command       | Action                         |
+| ------------- | ------------------------------ |
+| `S`           | Search YouTube                 |
+| `1`,`2`,`3`,… | Play video                     |
+| `D#`          | Download video (example: `D1`) |
+| `A#`          | Download audio only            |
+| `C`           | Clear results                  |
+| `Q`           | Quit                           |
 
-| Command          | Action                         |
-| ---------------- | ------------------------------ |
-| `S`              | Search YouTube                 |
-| `1`, `2`, `3`, … | Play video                     |
-| `D#`             | Download video (example: `D1`) |
-| `A#`             | Download audio only            |
-| `C`              | Clear results                  |
-| `Q`              | Quit                           |
-
-Downloaded files go into:
+Downloaded files are saved in:
 
 ```
 ~/Downloads/yt-tui/downloads/
@@ -174,9 +176,9 @@ pip install -U yt-dlp --break-system-packages
 
 **Still broken?**
 
-* It’s probably YouTube.
-* Or your Python install.
-* Or both.
+* It’s probably YouTube
+* Or your Python install
+* Or both
 
 ---
 
@@ -189,7 +191,6 @@ It is intended for personal and educational use only.
 
 ---
 
-
 ## 🛠️ Maintenance Status
 
 This project is **not actively maintained**.
@@ -199,7 +200,7 @@ I’ll likely only update or fix it if:
 * I personally run into issues while using it, or
 * A request or bug report is opened
 
-Feel free to submit pull requests if you want any improvements or for me to extend it.
+Feel free to submit pull requests if you want improvements or extensions.
 
 ---
 
