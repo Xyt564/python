@@ -92,8 +92,8 @@ mv yt-tui ~/Downloads/
 cd ..
 ```
 
-#### This gets rid of the entire python folder and all the unnecessary files
-
+#### This gets rid of the entire python repo folder and all the unnecessary files
+**(warning: This will get rid of all the files in this python repo so if you wish to keep any move them beforehand using mv or ur file manager)**
 ```bash
 rm -rf ~/python/
 ```
