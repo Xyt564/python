@@ -81,7 +81,7 @@ cd python
 cd yt-tui
 ```
 
-## Optional: Delete all the other projects (Recommended for users with low storage)
+### Optional: Delete all the other projects (Recommended for users with low storage)
 
 ```bash
 git clone https://github.com/Xyt564/python.git
