@@ -67,7 +67,7 @@ brew install mpv python
 
 ---
 
-### 2️⃣ Clone the repo
+### 2️⃣ Clone the repo (This will download this entire repo and all the projects within it)
 
 ```bash
 git clone https://github.com/Xyt564/python.git
@@ -81,7 +81,7 @@ cd python
 cd yt-tui
 ```
 
-## Optional: Delete other projects (Recommended for users with low storage)
+## Optional: Delete all the other projects (Recommended for users with low storage)
 
 ```bash
 git clone https://github.com/Xyt564/python.git
@@ -94,18 +94,22 @@ cd python
 ```
 mv yt-tui ~/Downloads/
 ```
+# This moves the yt-tui folder to the Downloads folder
 
 ```
 cd ..
 ```
+# This take you back to when you cloned the repo originally
 
 ```
 rm -rf ~/python/
 ```
+# This gets rid of the entire python folder and all the unnecasary files
 
 ```
 cd Downloads/yt-tui/
 ```
+# Takes you directly to the yt-tui folder
 
 ---
 
