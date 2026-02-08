@@ -134,7 +134,7 @@ pip install -r requirements.txt --break-system-packages
 ### 4️⃣ Run it
 
 ```bash
-python3 youtube_tui.py
+python3 main.py
 ```
 
 That’s it. If this step fails, reread steps **1–3**. Slowly.
@@ -160,7 +160,7 @@ Downloaded files go into:
 ~/yt-tui/downloads/
 ```
 
-Or if you removed the pythonf folder it will go into:
+Or if you removed the python folder it will go into:
 
 ```
 ~/Downloads/yt-tui/downloads/
