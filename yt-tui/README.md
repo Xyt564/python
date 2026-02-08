@@ -69,10 +69,12 @@ brew install mpv python
 
 ## Recommended: Delete all the other projects
 
+#### This clones the entire repo
 ```bash
 git clone https://github.com/Xyt564/python.git
 ```
 
+#### This command gets you into the repo directory
 ```
 cd python
 ```
@@ -83,7 +85,7 @@ cd python
 mv yt-tui ~/Downloads/
 ```
 
-#### This take you back to when you cloned the repo originally
+#### This take you back to the directory you cloned the repo originally
 
 ```
 cd ..
@@ -109,7 +111,7 @@ cd Downloads/yt-tui/
 pip install -r requirements.txt
 ```
 
-If your distro complains (looking at you, Ubuntu / Pop os):
+#### If your distro complains (looking at you, Ubuntu / Pop os):
 
 ```bash
 pip install -r requirements.txt --break-system-packages
@@ -141,12 +143,6 @@ Once running, use these commands:
 | `Q`              | Quit                           |
 
 Downloaded files go into:
-
-```
-~/yt-tui/downloads/
-```
-
-Or if you removed the python folder it will go into:
 
 ```
 ~/Downloads/yt-tui/downloads/
