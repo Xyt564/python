@@ -74,10 +74,26 @@ git clone https://github.com/Xyt564/python.git
 ```
 
 ```
+cd python
+```
+
+```
 cd yt-tui
 ```
 
-(You can delete the other projects if you don’t want them)
+## Optional: Delete other projects
+
+```
+mv yt-tui ~/Downloads/
+```
+
+```
+rm -rf ~/python/
+```
+
+```
+cd Downloads/yt-tui/
+```
 
 ---
 
@@ -87,7 +103,7 @@ cd yt-tui
 pip install -r requirements.txt
 ```
 
-If your distro complains (looking at you, Ubuntu):
+If your distro complains (looking at you, Ubuntu / Pop os):
 
 ```bash
 pip install -r requirements.txt --break-system-packages
