@@ -81,10 +81,22 @@ cd python
 cd yt-tui
 ```
 
-## Optional: Delete other projects
+## Optional: Delete other projects (Recommended for users with low storage)
+
+```bash
+git clone https://github.com/Xyt564/python.git
+```
+
+```
+cd python
+```
 
 ```
 mv yt-tui ~/Downloads/
+```
+
+```
+cd ..
 ```
 
 ```
@@ -137,7 +149,13 @@ Once running, use these commands:
 Downloaded files go into:
 
 ```
-./downloads/
+~/yt-tui/downloads/
+```
+
+Or if you removed the pythonf folder it will go into:
+
+```
+~/Downloads/yt-tui/downloads/
 ```
 
 ---
@@ -177,12 +195,6 @@ This tool is for **personal use only**.
 Respect YouTube’s Terms of Service and content creators.
 This project is not affiliated with or endorsed by YouTube or Google.
 It is intended for personal and educational use only.
-
----
-
-LMAO fair 😭 that’s on me — let’s do this **README-style**, clean Markdown, copy-pasteable, zero ceremony.
-
-You can drop this **near the bottom of your README** (usually right above or below the Disclaimer).
 
 ---
 
