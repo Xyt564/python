@@ -163,3 +163,53 @@ This project is not affiliated with or endorsed by YouTube or Google.
 It is intended for personal and educational use only.
 
 ---
+
+LMAO fair 😭 that’s on me — let’s do this **README-style**, clean Markdown, copy-pasteable, zero ceremony.
+
+You can drop this **near the bottom of your README** (usually right above or below the Disclaimer).
+
+---
+
+
+## 🛠️ Maintenance Status
+
+This project is **not actively maintained**.
+
+I’ll likely only update or fix it if:
+
+* I personally run into issues while using it, or
+* A request or bug report is opened
+
+Feel free to submit pull requests if you want any improvements or for me to extend it.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+```
+MIT License
+
+Copyright (c) 2026 xyt564
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
